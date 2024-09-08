@@ -1,7 +1,7 @@
 import CourseCard from "./CourseCard";
 import SearchButton from "../assets/SearchButton";
 
-function Home() {
+function LearnerHome() {
   return (
     <main className="w-full bg-slate-200">
       <div className="h-40 flex items-center justify-center">
@@ -30,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default LearnerHome;
