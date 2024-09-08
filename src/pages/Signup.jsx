@@ -37,7 +37,7 @@ function SignUp() {
           </div>
         </div>
       </div>
-      <div className="w-full md:w-[60%] bg-white rounded-lg shadow-lg p-16 md:p-20 lg:p-40 lg:pt-16 relative">
+      <div className="w-full md:w-[60%] bg-white rounded-lg shadow-lg p-16 md:p-20 lg:p-40 relative">
         <div className="top-0 right-0 mr-8 mt-8 hidden md:block absolute">
           Already a member?{" "}
           <span className="text-purple-700 cursor-pointer hover:underline">
