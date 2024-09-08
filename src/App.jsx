@@ -4,6 +4,7 @@ import SignUp from "./pages/Signup";
 import LearnerHome from "./components/LearnerHome"
 import TeacherHome from "./components/TeacherHome";
 import Dashboard from "./components/Dashboard";
+import Course from "./components/Course";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="signup" element={<SignUp />} />
         <Route path="instructor" element={<TeacherHome />} />
         <Route path="dashboard" element={<Dashboard/>} />
+        <Route path="course" element={<Course />} />
       </Routes>
     </BrowserRouter>
   );

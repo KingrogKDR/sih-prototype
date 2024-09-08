@@ -3,7 +3,7 @@ import SearchButton from "../assets/SearchButton";
 
 function LearnerHome() {
   return (
-    <main className="w-full bg-slate-200">
+    <main className="w-full h-full bg-slate-200">
       <div className="h-40 flex items-center justify-center">
         <div className="relative w-[60%]">
             <input type="text" placeholder="Search..." className="py-3 px-4 w-full rounded-full focus:outline-none text-md focus:scale-105 transition duration-300 shadow-lg" />
@@ -12,7 +12,9 @@ function LearnerHome() {
             </button>
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-center">
+      <div className="flex flex-wrap items-center justify-center pb-20">
+        <CourseCard />
+        <CourseCard />
         <CourseCard />
         <CourseCard />
         <CourseCard />
