@@ -12,7 +12,7 @@ function Navbar({
 }) {
   return (
     <div
-      className={`w-full pt-10 h-[200px] ${customStyles} rounded-b-full flex flex-col`}
+      className={`w-full pt-10 h-[280px] ${customStyles} rounded-b-full flex flex-col`}
     >
       <div className="h-[20%] flex flex-row items-center justify-between gap-3">
         <div className="w-[68px] h-[58px] top-[14px] left-[28px] rounded-full bg-[#D9D9D9] ml-10"></div>
@@ -59,7 +59,7 @@ function Navbar({
                 isActive ? "underline text-white" : "text-white"
               }
             >
-              Add A Courses
+              Add A Course
             </NavLink>
             <NavLink
               to="/my-learnings"
