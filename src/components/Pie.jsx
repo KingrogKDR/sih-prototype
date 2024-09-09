@@ -1,4 +1,3 @@
-import React from 'react';
 
 function Pie({ text, percentage, number }) {
   const radius = 45;
@@ -6,8 +5,8 @@ function Pie({ text, percentage, number }) {
   const offset = circumference - (percentage / 100) * circumference;
 
   return (
-    <div className='w-52 h-52 rounded-3xl bg-[#549E70] p-5 flex flex-col justify-center items-center'>
-      <h1 className='text-white text-l mb-2'>{text}</h1>
+    <div className='w-52 h-52 rounded-3xl bg-[#549E70] px-5 flex flex-col justify-center items-center pb-12'>
+      <h1 className='text-white text-sm mb-10'>{text}</h1>
       <div className='relative flex justify-center items-center'>
         <svg className='absolute' width="120" height="120">
           <circle

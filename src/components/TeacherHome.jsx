@@ -4,10 +4,7 @@ import thome from "../assets/thome.svg"
 import dsa from "../assets/dsa.png"
 import python from "../assets/python.png"
 import matlab from "../assets/matlab.png"
-import newest from "../assets/newest.png"
-import filter from "../assets/filter.png"
 import TeacherCard from "./TeacherCard";
-import { TfiAlignJustify } from "react-icons/tfi";
 
 export default function TeacherHome() {
   return (

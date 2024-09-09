@@ -1,8 +1,5 @@
 import Navbar from "./Navbar.jsx";
-import TimeCard from "./TimeCard.jsx";
 import analyze from "../assets/analyze.png";
-import clock from "../assets/clock.svg";
-import watchtime from "../assets/watchtime.svg";
 import Section from "./Section.jsx";
 import Pie from "./Pie.jsx"
 

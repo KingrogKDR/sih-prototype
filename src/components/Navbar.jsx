@@ -73,7 +73,7 @@ function Navbar({
         )}
         <div className="w-[68px] h-[58px] top-[14px] left-[28px] rounded-full bg-[#D9D9D9] mr-10"></div>
       </div>
-      <div className="w-full h-[80%] flex items-center justify-center pb-20">
+      <div className="w-full h-[80%] flex items-center justify-center pb-20 mt-5">
         <div>
           <img src={source} className={`${imageClass}`} />
         </div>
