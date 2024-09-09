@@ -14,6 +14,7 @@ function Course() {
         customStyles="bg-[#0A3B87]"
         isCourse={true}
         textStyles="text-right sm:w-1/6"
+        imageClass="h-36"
       />
       <main className="w-full h-full flex flex-col gap-3">
           <div className="h-1/3 flex justify-center items-center pt-10">

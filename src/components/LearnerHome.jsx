@@ -17,6 +17,8 @@ function LearnerHome() {
         customStyles="bg-[#0A3B87]"
         isCourse={false}
         textStyles="text-right sm:w-1/4"
+        imageClass="h-36"
+        type="learner"
       />
       <main className="w-full h-full px-4">
         <div className="h-40 flex items-center justify-center">
